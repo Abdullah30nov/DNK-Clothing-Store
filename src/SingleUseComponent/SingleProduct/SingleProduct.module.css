@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.main1{
+    padding: 20px 0px;
+    width: 100%;
+    height: auto;
+}
+.main1> .grid_box:nth-child(2){
+    color: #002f34;
+    padding: 20px;
+}
+.eprice{
+    display: flex;
+    justify-content: space-between;
+}
+.eprice .price:nth-child(1),.eprice .price:nth-child(2){
+    margin: 10px 8px;
+    font-weight: bolder;
+    background-color: white;
+    color: #002f34;;
+    border: 1px solid #002f34;
+    z-index: -1;
+    transition: 1s ease;
+}
+.main1>.grid_box:nth-child(2)>.eprice>.price:hover{
+    background-color: #002f34;
+    color: white;
+}
+.eprice .heart .price{
+    color: #002f34;
+    border: none !important;
+}
+.main1>.grid_box:nth-child(2)>.elinks{row-gap: 30px;}
+.main1>.grid_box:nth-child(2)>.elinks>.Links{
+    border: 2px solid #002f34;
+    width: 100%;
+    z-index: -1;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+}
+.elinks .Links:nth-child(1),.elinks .Links:nth-child(2) {
+    background-color: white;
+    color: #002f34;
+    transition: all 1s ease;
+}
+.elinks .Links:nth-child(1):hover,.elinks .Links:nth-child(2):hover{
+    background-color: #002f34;
+    color: white;
+}
+.elinks .Links:nth-child(3){
+    background-color: #002f34;
+    color: white;
+    transition: all 1s ease;
+} 
+.elinks .Links:nth-child(3):hover{
+    background-color: white;
+    color: #002f34;
+} 
+.main1>.grid_box:nth-child(1){
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main1>.grid_box:nth-child(1)>img{
+    width: 400px;
+    padding: 10px;
+    height: auto;
+    margin: auto;
+}
+@media screen  and (max-width:720px){
+    .main1>.grid_box:nth-child(1)>img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }   
+}
+@media screen  and (max-width:600){
+    .main1>.grid_box:nth-child(1)>img{
+        width: 400px;
+        padding: 0px 15px;
+        height: auto;
+        margin: auto;
+    }   
+}
