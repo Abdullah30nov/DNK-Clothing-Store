@@ -45,7 +45,7 @@ const Footer=()=>{
                 </Grid><hr />
                 <Box className={css.copyright_sec}>
                     <Box>Copyright © 2024. Created by Abdullah Bin Aslam</Box>
-                    <Box sx={{fontSize:'30px',color:'black' }}><Link to='https://github.com/Abdullah30nov/DNK-Clothing-Store'  sx={{color:"black}} ><FaGithub sx={{color:"black}}/></Link></Box>
+                    <Box sx={{fontSize:'30px',color:'black' }}><Link to='https://github.com/Abdullah30nov/DNK-Clothing-Store'  sx={{color:"black"}} ><FaGithub sx={{color:"black"}}/></Link></Box>
                 </Box>
             </Container>
         </Box>
